@@ -69,6 +69,24 @@ class _PegawaiDetailState extends State<PegawaiDetail> {
                           style: const TextStyle(fontSize: 18),
                         ),
                       ),
+                      SizedBox(
+                        height: 20,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceAround,
+                        children: [
+                          ElevatedButton(
+                            onPressed: () {},
+                            style: ElevatedButton.styleFrom(backgroundColor: Colors.green),
+                            child: const Text('Ubah'),
+                          ),
+                          ElevatedButton(
+                            onPressed: () {},
+                            style: ElevatedButton.styleFrom(backgroundColor: Colors.red),
+                            child: const Text('Hapus'),
+                          ),
+                        ],
+                      )
                     ],
                   ),
                 )
